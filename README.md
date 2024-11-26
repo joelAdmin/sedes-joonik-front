@@ -22,18 +22,31 @@ Este repositorio contiene el frontend de la aplicación Sedes, desarrollado con 
    ```bash
    git clone https://github.com/joelAdmin/sedes-joonik.git
 
-2. **Navegar al directorio del frontend**
+2. **Estructura**
+  ESTRUCTURA DEL FRONT
+  src/
+  ├── components/
+  │   ├── LocationCard.tsx
+  │   └── LocationList.tsx
+  ├── services/
+  │   └── api.ts
+  ├── App.tsx
+  └── main.tsx
+  └──.env
+
+
+3. **Navegar al directorio del frontend**
   ```bash
   cd frontend
 
-3. **Instalar dependencias**
+4. **Instalar dependencias**
   ```bash
   npm install
 
-3. **Iniciar el servidor de desarrollo y produccion**
-```bash
-  npm run dev
-  npm run build```
+5. **Iniciar el servidor de desarrollo y produccion**
+  ```bash
+      npm run dev
+      npm run build```
 
 ## other
 
