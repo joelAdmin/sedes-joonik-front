@@ -1,10 +1,14 @@
 import axios from 'axios';
 
-const API_KEY = import.meta.env.API_KEY;
-const API_BASE_URL = import.meta.env.API_URL;
+/*
+    const API_KEY = import.meta.env.API_KEY;
+    const API_BASE_URL = import.meta.env.API_URL;
+    pendiente configurar las .env
+*/
 
-//const API_BASE_URL = 'http://localhost:8000/api';
-//const API_KEY = 'MVcc7aWOQ123456789MVcc7aWOQ';
+const API_BASE_URL = 'http://localhost/api';
+const API_KEY = 'MVcc7aWOQ123456789MVcc7aWOQ';
+
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
@@ -14,12 +18,16 @@ const apiClient = axios.create({
   },
 });
 
-export const fetchLocations_bk = async () => {
+export const fetchLocations = async () => {
   const response = await apiClient.get('/locations');
   return response.data;
 };
 
-export const fetchLocations = async () => {
+/**
+ * 
+ * @returns datos de prueba
+ */
+export const fetchLocations_test = async () => {
     // Datos provisionales
     const data = [
       {

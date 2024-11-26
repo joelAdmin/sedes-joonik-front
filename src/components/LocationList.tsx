@@ -20,7 +20,7 @@ const LocationList: React.FC = () => {
         const data = await fetchLocations();
         setLocations(data);
       } catch (error) {
-        console.error('Error fetching locations:', error);
+        console.error('Error http en la consulta:', error);
       } finally {
         setLoading(false);
       }
@@ -33,7 +33,7 @@ const LocationList: React.FC = () => {
   }
 
   if (!locations.length) {
-    return <Typography variant="h6">No locations found.</Typography>;
+    return <Typography variant="h6">No hay resultados.</Typography>;
   }
 
   return (

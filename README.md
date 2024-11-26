@@ -44,8 +44,18 @@ Este repositorio contiene el frontend de la aplicación Sedes, desarrollado con 
 
 5. **Iniciar el servidor de desarrollo y produccion**
   ```bash
-      npm run dev
-      npm run build```
+      npm run dev 
+      npm run build
+       
+      frontend@0.0.0 dev
+      salida >
+      vite
+      VITE v6.0.0  ready in 388 ms
+
+      ➜  Local:   http://localhost:3000/
+      ➜  press h + enter to show help
+
+  ```
 
 ## other
 
