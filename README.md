@@ -23,19 +23,21 @@ Este repositorio contiene el frontend de la aplicación Sedes, desarrollado con 
    git clone https://github.com/joelAdmin/sedes-joonik.git
 
 2. **Navegar al directorio del frontend**
-  ```bash
+
   cd frontend
 
 3. **Instalar dependencias**
-  ```bash
+  
   npm install
 
 3. **Iniciar el servidor de desarrollo y produccion**
-```bash
+
 npm run dev
-npm run build
+npm run build```
 
+## other
 
+```bash
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
