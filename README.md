@@ -23,17 +23,17 @@ Este repositorio contiene el frontend de la aplicación Sedes, desarrollado con 
    git clone https://github.com/joelAdmin/sedes-joonik.git
 
 2. **Navegar al directorio del frontend**
-
+  ```bash
   cd frontend
 
 3. **Instalar dependencias**
-  
+  ```bash
   npm install
 
 3. **Iniciar el servidor de desarrollo y produccion**
-
-npm run dev
-npm run build```
+```bash
+  npm run dev
+  npm run build```
 
 ## other
 
